@@ -1,0 +1,19 @@
+package ex;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		
+		String a;
+		String b= "ff";
+		
+		for(a="*";a==b;a+=a) {
+			System.out.println(a);
+			
+			
+			
+		}
+		 
+	}
+
+}

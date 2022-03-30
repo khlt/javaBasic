@@ -1,0 +1,25 @@
+package sec1;
+
+public class Sample1 {
+	int field1;
+	float field2;
+	double field3;
+	short field4;
+	boolean field5;
+	String field6;
+	Sample1(){}
+	Sample1(int field1){
+		this.field1 = field1;
+	}
+	Sample1(int field1, float field2){
+		this.field1 = field1;
+		this.field2 = field2;
+	}
+	public void method1() {
+		System.out.println("메서드1");
+	}
+	public int method2() {
+		return this.field1;
+	}
+	
+}
