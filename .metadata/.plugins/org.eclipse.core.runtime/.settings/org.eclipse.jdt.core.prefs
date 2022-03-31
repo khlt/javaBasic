@@ -1,5 +1,8 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=*.ucls,*.useq
+=======
+>>>>>>> 5f39c2c3411f093b2d1755807abfaa6f22b361d4
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=16

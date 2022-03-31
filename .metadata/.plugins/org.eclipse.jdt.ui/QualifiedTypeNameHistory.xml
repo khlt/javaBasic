@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+<<<<<<< HEAD
+=======
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="sec2.Week"/>
+>>>>>>> 5f39c2c3411f093b2d1755807abfaa6f22b361d4
 </qualifiedTypeNameHistroy>

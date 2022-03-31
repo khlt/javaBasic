@@ -1,0 +1,18 @@
+package sec2;
+
+public class WhileEx1 {
+
+	public static void main(String[] args) {
+		//1~100 4의 배수의 합산결과를 출력
+		
+		int i = 0, sum=0;
+		while(i<=100) {
+			
+			sum+=i;
+			i+=4;
+				
+		}
+		System.out.println("1~100 4의 배수의 합산 결과 : "+sum);
+	}
+
+}

@@ -1,13 +1,21 @@
 package sec1;
+<<<<<<< HEAD
 //클래스 : 설계도, 객체를 만들기 위한 틀
 //클래스의 구성 : 멤버(변수)필드, 멤버 메서드, 생성자;
 public class Sample1 {
 	int field1;	//멤버(변수)필드 : 해당 객체에 대한 특성을 저장하고 있는 객체에 딸린 변수
 	private float field2;  //Field
+=======
+
+public class Sample1 {
+	int field1;
+	float field2;
+>>>>>>> 5f39c2c3411f093b2d1755807abfaa6f22b361d4
 	double field3;
 	short field4;
 	boolean field5;
 	String field6;
+<<<<<<< HEAD
 	//생성자(Constructor)
 	//: 현재 이름과 똑같이 객체를 만들 수 있는 함수를 만드는 데 그 것을 생성자라함
 	//만약, 선언 또는 정의를 하지 않으면, 생략한 것으로 간주하여
@@ -22,6 +30,17 @@ public class Sample1 {
 		this.field2 = field2;
 	}
 	public void method1() { //멤버 메서드(Method)
+=======
+	Sample1(){}
+	Sample1(int field1){
+		this.field1 = field1;
+	}
+	Sample1(int field1, float field2){
+		this.field1 = field1;
+		this.field2 = field2;
+	}
+	public void method1() {
+>>>>>>> 5f39c2c3411f093b2d1755807abfaa6f22b361d4
 		System.out.println("메서드1");
 	}
 	public int method2() {
@@ -63,4 +82,9 @@ public class Sample1 {
 	public void setField6(String field6) {
 		this.field6 = field6;
 	}
+<<<<<<< HEAD
 }
+=======
+	
+}
+>>>>>>> 5f39c2c3411f093b2d1755807abfaa6f22b361d4

@@ -1,0 +1,17 @@
+package ex;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		int cube1=0, cube2=0;
+		
+		while(cube1+cube2!=5) {
+			System.out.println(Math.random()*6+1);
+			System.out.println(Math.random()*6+1);
+			System.out.println(cube1+", "+cube2+);
+		}
+
+	}
+
+}

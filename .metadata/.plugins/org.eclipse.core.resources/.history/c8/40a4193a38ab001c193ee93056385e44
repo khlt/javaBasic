@@ -1,0 +1,16 @@
+package ex;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		
+		String name= "*";
+		
+		for(;;) {
+			String a = name;
+			System.out.println(name);
+		}
+
+	}
+
+}
