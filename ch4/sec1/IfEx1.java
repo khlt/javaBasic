@@ -10,7 +10,7 @@ package sec1;
 public class IfEx1 {
 	public static void main(String[] args) {	
 		String name = "김기태";
-		int kor = 10;
+		int kor = 80;
 		int eng = 70;
 		int mat = 100;
 		int tot = kor + eng + mat;

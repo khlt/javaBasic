@@ -2,7 +2,7 @@ package sec3;
 
 public class ScoreProc {
 	public static void main(String[] args) {
-		//2차원 
+		//2차원  student.name="길정훈"; student.kor = 90;
 		String[] names = {"길정훈","김동협","김성민","김태균","신길호"};
 		int[][] scores = {{90,75,100},{95,90,65},{80,85,95},{85,80,85},{70,90,80}};
 		int[] tot = {0,0,0};	//과목별 총점

@@ -1,63 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-<<<<<<< HEAD
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="88" key="DIALOG_X_ORIGIN"/>
-		<item value="149" key="DIALOG_Y_ORIGIN"/>
-	</section>
-	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="753" key="dialogHeight"/>
-		<item value="1440" key="dialogWidth"/>
-		<list key="textEntries">
-		</list>
-		<list key="orderedElements">
-		</list>
-		<list key="orderedProviders">
-		</list>
-		<list key="textArray">
-		</list>
-	</section>
-	<section name="PreferencesImportWizard">
+	<section name="ImportExportAction">
 	</section>
 	<section name="NewWizardAction">
-		<item value="com.objectaid.uml.new.classdiagram" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="com.tomato.exerd.ui.wizards.newEXerdWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="com.objectaid.uml.new"/>
+			<item value="com.tomato.exerd.ui.newWizards.category"/>
 		</list>
 	</section>
-	<section name="InstallationDialogSettings">
-		<item value="702" key="DIALOG_WIDTH"/>
-		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
-		<item value="740" key="DIALOG_HEIGHT"/>
-		<item value="90" key="DIALOG_X_ORIGIN"/>
-		<item value="-137" key="DIALOG_Y_ORIGIN"/>
-	</section>
-	<section name="ImportExportAction">
-		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
-=======
-	<section name="ImportExportAction">
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
->>>>>>> 5f39c2c3411f093b2d1755807abfaa6f22b361d4
-		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
-			<item value="org.eclipse.ui.Basic"/>
-		</list>
-	</section>
-	<section name="FileSystemImportWizard">
-<<<<<<< HEAD
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
-		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="D:\SGH\khlt\ch6\src\sec1"/>
-		</list>
-	</section>
-=======
-		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
-		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
-		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="D:\SGH2\java1\ch4\src"/>
-		</list>
-	</section>
-	<section name="NewWizardAction">
-	</section>
->>>>>>> 5f39c2c3411f093b2d1755807abfaa6f22b361d4
 </section>

@@ -1,45 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-<<<<<<< HEAD
-	<section name="ExternalProjectImportWizard">
-	</section>
-=======
->>>>>>> 5f39c2c3411f093b2d1755807abfaa6f22b361d4
 	<section name="SmartImportWizard">
 		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-<<<<<<< HEAD
-			<item value="C:\Users\admin\Desktop\자바문제"/>
-			<item value="D:\SGH\java1"/>
-		</list>
-	</section>
-	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
-		<item key="ShowStatusLine" value="true"/>
-		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
-		<item key="ShowDerived" value="false"/>
-		<item key="FilterByLocation" value="false"/>
-		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
-		<section name="DialogBoundsSettings">
-			<item key="DIALOG_HEIGHT" value="500"/>
-			<item key="DIALOG_WIDTH" value="600"/>
-			<item key="DIALOG_X_ORIGIN" value="312"/>
-			<item key="DIALOG_Y_ORIGIN" value="186"/>
-			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
-		</section>
-=======
-			<item value="D:\SGH2\java1\ch1"/>
-			<item value="D:\SGH2\java1\ch2"/>
-			<item value="D:\SGH2\java1\ch3"/>
-			<item value="D:\SGH2\java1\ch4"/>
-			<item value="D:\SGH2\java1"/>
+			<item value="D:\SGH\java1\ch1"/>
+			<item value="D:\SGH\java1\ch2"/>
+			<item value="D:\SGH\java1\ch3"/>
+			<item value="D:\SGH\java1\ch4"/>
+			<item value="D:\SGH\java1\ch5"/>
+			<item value="D:\SGH\java1\ch6"/>
 		</list>
 	</section>
 	<section name="ExternalProjectImportWizard">
-	</section>
-	<section name="NewWizardAction">
->>>>>>> 5f39c2c3411f093b2d1755807abfaa6f22b361d4
 	</section>
 </section>
