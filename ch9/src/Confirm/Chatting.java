@@ -21,6 +21,6 @@ public class Chatting {
 		void start() { }
 		void sendMessage(String message) { }
 	}
-	//1~3의 에러를 해결하여도 서로 null값을 전달하고, 전달받을 수 없으므로 컴파일 에러가 발생할 확률이  크다.
+	//1~3의 에러를 해결하여도 서로 null값을 전달하고, 전달받을 수 없으므로 컴파일 에러가 발생할 확률이 크다.
 }
 

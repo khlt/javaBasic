@@ -8,6 +8,7 @@ public class AnimalEx1 {
 		bird1.setType("조류");
 		bird1.setLegs(2);
 		bird1.setWings(2);
+
 		Animal bird2 = new Animal("닭");
 		bird2.setType("조류");
 		bird2.setLegs(2);
