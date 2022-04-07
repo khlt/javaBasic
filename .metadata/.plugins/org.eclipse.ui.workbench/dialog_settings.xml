@@ -8,4 +8,6 @@
 			<item value="com.tomato.exerd.ui.newWizards.category"/>
 		</list>
 	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
 </section>

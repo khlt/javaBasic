@@ -4,6 +4,7 @@ package sec1;
 public class TvRemote implements RemoteControl{
 
 	int volume;
+	int channel;
 	
 	@Override
 	public void turnOn() {
