@@ -14,12 +14,5 @@ public class Child extends Parent {
 		super(name);
 		this.studentNo = studentNo;
 		System.out.println("Child(String name, int studentNo) call");
-	}
-	public int getStudentNo() {
-		return studentNo;
-	}
-	public void setStudentNo(int studentNo) {
-		this.studentNo = studentNo;
-	}
-	
+	}	
 }

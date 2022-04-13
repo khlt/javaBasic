@@ -7,9 +7,9 @@ public class ChildEx {
 		
 		child1.studentNo=7;
 		
-		Child child2 = new Child("김기태");
+		Child child2 = new Child();
 		child2.studentNo=8;
 		
-		Child child3 = new Child("김기태", 9);
+		Child child3 = new Child();
 	}
 }
