@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="Behavioral.Observer.Observer" project="ch11" 
+    file="/ch11/src/Behavioral/Observer/Observer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="149" x="462" y="312"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="Behavioral.Observer.ObserverPatternEx" project="ch11" 
+    file="/ch11/src/Behavioral/Observer/ObserverPatternEx.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="133" x="63" y="83"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Behavioral.Observer.NewsSubscriber" project="ch11" 
+    file="/ch11/src/Behavioral/Observer/NewsSubscriber.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="191" x="462" y="83"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Behavioral.Observer.NewsPublisher" project="ch11" 
+    file="/ch11/src/Behavioral/Observer/NewsPublisher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="186" x="236" y="83"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="Behavioral.Observer.Publisher" project="ch11" 
+    file="/ch11/src/Behavioral/Observer/Publisher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="186" x="236" y="312"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="7">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="8" name="publisher"/>      
+      <multiplicity id="9" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="11">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="12" name="observers"/>      
+      <multiplicity id="13" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

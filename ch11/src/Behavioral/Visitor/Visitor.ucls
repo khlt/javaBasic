@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="Behavioral.Visitor.ViewVisitor" project="ch11" 
+    file="/ch11/src/Behavioral/Visitor/ViewVisitor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="111" x="850" y="216"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="Behavioral.Visitor.BusEx" project="ch11" 
+    file="/ch11/src/Behavioral/Visitor/BusEx.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="335" y="23"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="Behavioral.Visitor.Car" project="ch11" 
+    file="/ch11/src/Behavioral/Visitor/Car.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="141" x="579" y="216"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="Behavioral.Visitor.Truck" project="ch11" 
+    file="/ch11/src/Behavioral/Visitor/Truck.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="141" x="488" y="23"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Behavioral.Visitor.Bus" project="ch11" 
+    file="/ch11/src/Behavioral/Visitor/Bus.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="141" x="669" y="23"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Behavioral.Visitor.CarViewVisitor" project="ch11" 
+    file="/ch11/src/Behavioral/Visitor/CarViewVisitor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="139" x="850" y="23"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="7">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

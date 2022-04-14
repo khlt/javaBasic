@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="Structural.Facade.Beverage" project="ch11" 
+    file="/ch11/src/Structural/Facade/Beverage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="109" x="168" y="125"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Structural.Facade.FacadeEx" project="ch11" 
+    file="/ch11/src/Structural/Facade/FacadeEx.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="317" y="125"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Structural.Facade.Facade" project="ch11" 
+    file="/ch11/src/Structural/Facade/Facade.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="139" x="470" y="125"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Structural.Facade.RemoteControl" project="ch11" 
+    file="/ch11/src/Structural/Facade/RemoteControl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="109" x="649" y="125"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Structural.Facade.Movie" project="ch11" 
+    file="/ch11/src/Structural/Facade/Movie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="126" x="798" y="125"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
