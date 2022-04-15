@@ -3,6 +3,7 @@ package sec5;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+
 public class DateEx {
 	public static void main(String[] args) {
 		Date now = new Date();
@@ -16,13 +17,13 @@ public class DateEx {
 		
 		System.out.println(date1);
 		System.out.println(date2);
-		
-		int year = now.getYear();
-		int month =now.getMonth();
-		int day =now.getDay();
-		int hour =now.getHours();
-		int minute =now.getMinutes();
-		int second =now.getSeconds();
-		int week =now.week();
+		//yyyy - 년, MM - 월, dd - 일, hh - 시, mm - 분, ss - 초
+		int year = now.getYear();	//년
+		int month = now.getMonth(); //월
+		int day = now.getDate();	//일
+		int hour = now.getHours();	//시
+		int minute = now.getMinutes(); //분
+		int second = now.getSeconds(); //초
+		int week = now.getDay();	//요일 번호
 	}
 }
